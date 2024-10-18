@@ -159,7 +159,7 @@
             "sortf": 0,
             "tmpls": [
                 {
-                    "afmt": "{{FrontSide}}\n<hr>\n{{desc}}\n<br>\n<br>\n{{result}}",
+                    "afmt": "{{FrontSide}}\n<hr>\n{{desc}}\n<br>\n<br>\n{{result}}\n{{Tags}}",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "{{cmd1}}",
