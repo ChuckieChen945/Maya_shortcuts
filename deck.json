@@ -1,0 +1,2883 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "f015a228-8d1d-11ef-8cfd-e8fb1c40bbe6",
+    "deck_config_uuid": "f015aabc-8d1d-11ef-bd13-e8fb1c40bbe6",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "f015aabc-8d1d-11ef-bd13-e8fb1c40bbe6",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "",
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "shortcuts",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "questionAction": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": true,
+            "weightSearch": ""
+        }
+    ],
+    "desc": "Maya快捷键Anki牌组。https://help.autodesk.com/view/MAYAUL/2025/CHS/?guid=GUID-30CACC9D-8FBE-4B85-8A8F-C5ADF32DDD4E",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "Maya_shortcuts",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "操作1",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 8929821507905523744,
+                    "name": "cmd1",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "操作2",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -8612294787372549394,
+                    "name": "cmd2",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "描述",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -6810786710646653331,
+                    "name": "desc",
+                    "ord": 2,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "结果",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -7659674096800645839,
+                    "name": "result",
+                    "ord": 3,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "shortcuts",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n<hr>\n{{desc}}\n<br>\n<br>\n{{result}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "{{cmd1}}",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -6447756815198161026,
+                    "name": "Maya_shortcuts",
+                    "ord": 0,
+                    "qfmt": "{{cmd1}} {{cmd2}}\n<br>\n<br>"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "回车",
+                "完成当前工具",
+                ""
+            ],
+            "guid": "Qp;%=^6U.V",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::工具操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "插入",
+                "进入工具编辑模式",
+                ""
+            ],
+            "guid": "h8Wk+}u54[",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::工具操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "q",
+                "选择工具或对选择遮罩标记菜单使用鼠标左键",
+                ""
+            ],
+            "guid": "suhao:G&K-",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::工具操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "w",
+                "移动工具或对移动工具标记菜单使用鼠标左键",
+                ""
+            ],
+            "guid": "HsR`co16$c",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::工具操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "e",
+                "旋转工具或对旋转工具标记菜单使用鼠标左键",
+                ""
+            ],
+            "guid": "KX-&9kQo|&",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::工具操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "r",
+                "缩放工具或对缩放工具标记菜单使用鼠标左键",
+                ""
+            ],
+            "guid": "wht2ie}IK^",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::工具操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "t",
+                "显示通用操纵器工具",
+                ""
+            ],
+            "guid": "bKGlC?]];Y",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::工具操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "t",
+                "显示操纵器工具",
+                ""
+            ],
+            "guid": "gsgzk(bB@-",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::工具操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "y",
+                "选择不属于选择、移动、旋转或缩放的最后使用的工具",
+                ""
+            ],
+            "guid": "iM7t1F$ouF",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::工具操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "j",
+                "（按住 + 拖动）移动、旋转、缩放工具捕捉",
+                ""
+            ],
+            "guid": "oNa*9d#dBL",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::工具操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "=、+",
+                "增加操纵器大小",
+                ""
+            ],
+            "guid": "iQQFhOw-r]",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::工具操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "-",
+                "降低操纵器大小",
+                ""
+            ],
+            "guid": "iAjcwR#&^V",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::工具操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "d",
+                "使用鼠标左键移动枢轴（移动工具）",
+                ""
+            ],
+            "guid": "hI&)cLKRTM",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::工具操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "插入",
+                "在移动枢轴与移动对象之间切换（移动工具）",
+                ""
+            ],
+            "guid": "ht3[bn)6v3",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::工具操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "Tab 键",
+                "循环切换视图中编辑器值",
+                ""
+            ],
+            "guid": "tmv(!>DCjG",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::工具操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shift",
+                "Tab 键",
+                "反向循环切换视图中编辑器值。",
+                ""
+            ],
+            "guid": "HeLtLe29nm",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::工具操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "使用鼠标中键拖动（使用移动工具(Move Tool)）",
+                "沿其法线移动组件（仅限“组件”(Component)模式）",
+                ""
+            ],
+            "guid": "oHc_xwno6J",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::工具操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "使用鼠标中键拖动（使用旋转工具(Rotate Tool)）",
+                "沿其局部 X 轴旋转组件（仅限“组件”(Component)模式）",
+                ""
+            ],
+            "guid": "FX%MXcrcNV",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::工具操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "使用鼠标中键拖动（使用缩放工具(Scale Tool)）",
+                "沿其局部 YZ 轴缩放组件（仅限“组件”(Component)模式）",
+                ""
+            ],
+            "guid": "t,fIlLV0Hm",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::工具操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "z",
+                "撤消(Undo)",
+                ""
+            ],
+            "guid": "rQj$|s-1lE",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::动作操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "y",
+                "重做(Redo)",
+                ""
+            ],
+            "guid": "vIIB/pcE7K",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::动作操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "g",
+                "重复上次操作",
+                ""
+            ],
+            "guid": "L1_t]F;1~K",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::动作操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "F8",
+                "在对象/组件选择模式之间切换",
+                ""
+            ],
+            "guid": "Iz}u6saBMe",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::动作操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "p",
+                "结成父子关系",
+                ""
+            ],
+            "guid": "s~8~L{k?D{",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::动作操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shift",
+                "P",
+                "断开父子关系",
+                ""
+            ],
+            "guid": "x5XS0W-SA2",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::动作操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "s",
+                "设置关键帧",
+                ""
+            ],
+            "guid": "IHtf$aA->x",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::动作操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shift",
+                "w",
+                "对选定对象位置设定关键帧",
+                ""
+            ],
+            "guid": "E`E.k1b(t{",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::动作操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shift",
+                "e",
+                "对选定对象旋转设定关键帧",
+                ""
+            ],
+            "guid": "OBR@_K[z;8",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::动作操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Alt",
+                ".（句点）",
+                "在时间方向上向前移动一帧",
+                ""
+            ],
+            "guid": "L0D874]t8K",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::播放控件"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Alt",
+                ",（逗号）",
+                "在时间方向上向后移动一帧",
+                ""
+            ],
+            "guid": "i:]vcD)Q1P",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::播放控件"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                ".（句点）",
+                "转到下一个关键帧",
+                ""
+            ],
+            "guid": "D`/AR*v1bv",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::播放控件"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                ",（逗号）",
+                "转到上一个关键帧",
+                ""
+            ],
+            "guid": "vN^+;0=W>d",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::播放控件"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl+Alt",
+                ".（句点）",
+                "在“曲线图编辑器”(Graph Editor)中选择“下一个”(Next)关键帧，而不将其打开。",
+                ""
+            ],
+            "guid": "I5}6t6jL7D",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::播放控件"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl+Alt",
+                ",（逗号）",
+                "在“曲线图编辑器”(Graph Editor)中选择“上一个”(Previous)关键帧，而不将其打开。",
+                ""
+            ],
+            "guid": "A:l`F_8-9/",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::播放控件"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Alt",
+                "V",
+                "启用或禁用播放",
+                ""
+            ],
+            "guid": "f@z&FKvNYW",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::播放控件"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Alt+Shift",
+                "V",
+                "转到最小帧（通常为 0）",
+                ""
+            ],
+            "guid": "tBztEBi$2;",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::播放控件"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "k",
+                "为虚拟时间滑块模式使用鼠标中键（按住和拖动时间轴）",
+                ""
+            ],
+            "guid": "s!(3/oO9qC",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::播放控件"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Alt",
+                "鼠标左键",
+                "翻滚工具（按下并释放）",
+                ""
+            ],
+            "guid": "N3-nrc%w4h",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::翻滚、平移或推拉"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Alt",
+                "鼠标中键",
+                "平移工具（按下并释放）",
+                ""
+            ],
+            "guid": "kmMEX#C!vt",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::翻滚、平移或推拉"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Alt",
+                "鼠标右键",
+                "推拉工具（按下并释放）",
+                ""
+            ],
+            "guid": "Jv.-jDSXe0",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::翻滚、平移或推拉"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\+",
+                "鼠标中键",
+                "二维平移工具",
+                ""
+            ],
+            "guid": "MpX&8T9Z-i",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::二维平移/缩放"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\+",
+                "鼠标右键",
+                "二维缩放工具",
+                ""
+            ],
+            "guid": "b[5HN+YvL3",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::二维平移/缩放"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\",
+                "",
+                "启用/禁用二维平移/缩放。",
+                ""
+            ],
+            "guid": "t|!8%u&iv7",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::二维平移/缩放"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Alt",
+                "f",
+                "整体应用当前值",
+                ""
+            ],
+            "guid": "K6Z9M=ZZd4",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::绘制操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Alt",
+                "a",
+                "开启或关闭显示线框",
+                ""
+            ],
+            "guid": "n65|9*sfAI",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::绘制操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Alt",
+                "c",
+                "开启或关闭颜色反馈",
+                ""
+            ],
+            "guid": "mIN=MAn5~9",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::绘制操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Alt",
+                "r",
+                "开启或关闭反射",
+                ""
+            ],
+            "guid": "A^b{pYDcu4",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::绘制操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "u",
+                "对 Artisan Paint 操作标记菜单使用鼠标左键",
+                ""
+            ],
+            "guid": "Lp?:CKQAGQ",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::绘制操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "b",
+                "修改上部笔刷半径（按下并释放）（向左或向右拖动以调整?Blue Pencil?笔划大小）",
+                ""
+            ],
+            "guid": "kFFY%92QIv",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::绘制操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shift",
+                "B",
+                "修改低端笔刷半径（按下并释放）",
+                ""
+            ],
+            "guid": "vEwp<pE45h",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::绘制操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "m",
+                "修改最大置换（“雕刻曲面”(Sculpt Surfaces)和“雕刻多边形”(Sculpt Polygons)工具）（向左或向右拖动以调整?Blue Pencil?不透明度）",
+                ""
+            ],
+            "guid": "qIk0kJjC`}",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::绘制操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "n",
+                "修改绘制值",
+                ""
+            ],
+            "guid": "AAO>C*nxzS",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::绘制操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "/",
+                "切换到拾取颜色模式（按下并释放）",
+                ""
+            ],
+            "guid": "rP#OIm$#kG",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::绘制操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "o",
+                "对多边形笔刷工具标记菜单使用鼠标左键",
+                ""
+            ],
+            "guid": "t8!RinJxKH",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::绘制操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "o",
+                "对多边形 UV 工具标记菜单使用鼠标中键",
+                ""
+            ],
+            "guid": "E[)yTHf63E",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::绘制操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "c",
+                "捕捉到曲线（按下并释放）",
+                ""
+            ],
+            "guid": "dWQFgoq)`^",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::捕捉操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "x",
+                "捕捉到栅格（按下并释放）",
+                ""
+            ],
+            "guid": "fLn#8=uSV(",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::捕捉操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "V",
+                "捕捉到点（按下并释放）",
+                ""
+            ],
+            "guid": "rE?kn|yDC",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::捕捉操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "j",
+                "移动、旋转、缩放工具捕捉（按下并释放）",
+                ""
+            ],
+            "guid": "gdXawAj[$#",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::捕捉操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shift",
+                "j",
+                "移动、旋转、缩放工具相对捕捉（按下并释放）",
+                ""
+            ],
+            "guid": "MD8x#yW=B&",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::捕捉操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "F8",
+                "选择 > 对象/组件（在对象与组件编辑之间切换）",
+                ""
+            ],
+            "guid": "MG3xs78UVm",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::选择对象和组件"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "F9",
+                "选择 > 顶点",
+                ""
+            ],
+            "guid": "/UygwT|-A",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::选择对象和组件"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "F10",
+                "选择 > 边",
+                ""
+            ],
+            "guid": "%(9G%4XM-",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::选择对象和组件"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "F11",
+                "选择 > 面",
+                ""
+            ],
+            "guid": "b?j`Igcb~[",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::选择对象和组件"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "F12",
+                "选择 > UV",
+                ""
+            ],
+            "guid": "QL[6e}FpY6",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::选择对象和组件"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "i",
+                "选择下一个中间对象",
+                ""
+            ],
+            "guid": "d?9OdIPy2",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::选择对象和组件"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Alt",
+                "F9",
+                "选择 > 顶点面",
+                ""
+            ],
+            "guid": "nHpD{fj/8|",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::选择对象和组件"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "<",
+                "收缩多边形选择区域",
+                ""
+            ],
+            "guid": "xiSr#HhdZF",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::选择对象和组件"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                ">",
+                "增长多边形选择区域",
+                ""
+            ],
+            "guid": "o:c,L.N&De",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::选择对象和组件"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "m",
+                "显示/隐藏主菜单栏",
+                ""
+            ],
+            "guid": "Gr*k{H;j~H",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::选择菜单"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shift",
+                "M",
+                "显示/隐藏面板菜单栏",
+                ""
+            ],
+            "guid": "qU#J_=e>Jb",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::选择菜单"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl+Shift",
+                "M",
+                "显示/隐藏面板工具栏",
+                ""
+            ],
+            "guid": "m>Xrqo*$k6",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::选择菜单"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "h",
+                "对菜单集标记菜单使用鼠标左键",
+                ""
+            ],
+            "guid": "I(9U;~CqDd",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::选择菜单"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "F2",
+                "显示“建模”(Modeling)菜单集",
+                ""
+            ],
+            "guid": "zeVyvvSSe^",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::选择菜单"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "F3",
+                "显示“绑定”(Rigging)菜单集",
+                ""
+            ],
+            "guid": "IbJL0&!=AL",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::选择菜单"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "F4",
+                "显示“动画”(Animation)菜单集",
+                ""
+            ],
+            "guid": "H}^aDzQu]]",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::选择菜单"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "F6",
+                "显示“渲染”(Rendering)菜单集",
+                ""
+            ],
+            "guid": "l;zJisygJn",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::选择菜单"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "z",
+                "编辑 > 撤消",
+                ""
+            ],
+            "guid": "Op!J5R|W?v",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::编辑操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "y",
+                "编辑 > 重做",
+                ""
+            ],
+            "guid": "MtTqulpPD/",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::编辑操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "g",
+                "编辑 > 重复",
+                ""
+            ],
+            "guid": "BoM*WhYj8^",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::编辑操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shift",
+                "G",
+                "在鼠标位置重复命令",
+                ""
+            ],
+            "guid": "u_#=?U|c|~",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::编辑操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "d",
+                "编辑 > 复制",
+                ""
+            ],
+            "guid": "NhM3S;G2jV",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::编辑操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shift",
+                "拖动任何变换操纵器",
+                "编辑 > 复制",
+                ""
+            ],
+            "guid": "o6jdUqwD53",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::编辑操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl+Shift",
+                "D",
+                "编辑 > 特殊复制",
+                ""
+            ],
+            "guid": "wOM5Kg-SAd",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::编辑操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shift",
+                "D",
+                "编辑 > 复制并变换",
+                ""
+            ],
+            "guid": "fQm-9>y5CX",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::编辑操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "g",
+                "编辑 > 分组",
+                ""
+            ],
+            "guid": "NZebZ<5x>D",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::编辑操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "p",
+                "编辑 > 父对象",
+                ""
+            ],
+            "guid": "kFoF&F#]vv",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::编辑操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shift",
+                "P",
+                "编辑 > 断开父子关系",
+                ""
+            ],
+            "guid": "pflRjR4X+n",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::编辑操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "x",
+                "编辑 > 剪切",
+                ""
+            ],
+            "guid": "o`OB}P=@*A",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::编辑操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "c",
+                "编辑 > 复制",
+                ""
+            ],
+            "guid": "IJ>][@WmpC",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::编辑操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "V",
+                "编辑 > 粘贴",
+                ""
+            ],
+            "guid": "g4&^lk`m[&",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::编辑操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "向左键",
+                "渲染视图下一个图像",
+                ""
+            ],
+            "guid": "F.MRglT.L(",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::渲染"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "右箭头",
+                "渲染视图上一个图像",
+                ""
+            ],
+            "guid": "zWc`.PO9)X",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::渲染"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "P",
+                "在模态窗口中打开“颜色选择器”(Color Chooser)。使用该热键（而非从样例）打开时，您可以将颜色保存到“颜色历史”(Color History)或使用“滴管”(Eyedropper)选择或检查屏幕上的颜色。此外，还可以加载、保存和编辑选项板。但是，您无法在场景对象上设置颜色属性。",
+                ""
+            ],
+            "guid": "wlRA)m[ldx",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::渲染"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Alt",
+                "鼠标中键",
+                "在“大纲视图”(Outliner)中平移。",
+                ""
+            ],
+            "guid": "M3G2@!S(=#",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::窗口和视图操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Alt + Ctrl",
+                "鼠标中键",
+                "在“大纲视图”(Outliner)中快速平移",
+                ""
+            ],
+            "guid": "dzn!ST.5za",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::窗口和视图操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Alt",
+                "鼠标中键",
+                "在“属性编辑器”(Attribute Editor)中平移",
+                ""
+            ],
+            "guid": "wJr{1rKHFp",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::窗口和视图操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "a",
+                "在“属性编辑器”(Attribute Editor)或“通道盒”(Channel Box)之间切换 – 显示“属性编辑器”(Attribute Editor)（如果两者均不显示）",
+                ""
+            ],
+            "guid": "di.l3e%]Z_",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::窗口和视图操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "a",
+                "在活动面板中框显所有内容，或对历史操作标记菜单使用鼠标左键",
+                ""
+            ],
+            "guid": "j&d]mP.$j$",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::窗口和视图操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shift",
+                "A",
+                "在所有视图中框显所有内容",
+                ""
+            ],
+            "guid": "m_uU,7}c^m",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::窗口和视图操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "f",
+                "在活动面板中框显选定项",
+                ""
+            ],
+            "guid": "i]}=.;Nv5K",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::窗口和视图操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shift",
+                "F",
+                "在所有视图中框显选定项",
+                ""
+            ],
+            "guid": "PlkvZg}Gi3",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::窗口和视图操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "空格键",
+                "（当点击时）在多窗格显示的活动窗口与单个窗格显示之间切换",
+                ""
+            ],
+            "guid": "v;$rnUkaSn",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::窗口和视图操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "空格键",
+                "在当前面板的标准视图与全屏视图之间切换",
+                ""
+            ],
+            "guid": "xZ7n?r$<K/",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::窗口和视图操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "]（右方括号）",
+                "重做视图更改",
+                ""
+            ],
+            "guid": "mf/f/Plese",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::窗口和视图操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "[（左方括号）",
+                "撤消视图更改",
+                ""
+            ],
+            "guid": "n)#$;i41+x",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::窗口和视图操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Alt",
+                "b",
+                "在渐变、黑色、暗灰色或浅灰色背景色之间切换。",
+                ""
+            ],
+            "guid": "EJ!L7oo*>d",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::窗口和视图操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shift",
+                "{（左花括号）",
+                "查看上一个布局",
+                ""
+            ],
+            "guid": "k~4<1S:Q>?",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::窗口和视图操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shift",
+                "}（右花括号）",
+                "查看下一个布局",
+                ""
+            ],
+            "guid": "Hf[n3{oB&y",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::窗口和视图操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "F1",
+                "帮助 > Maya 帮助",
+                ""
+            ],
+            "guid": "HOYk8/?h!d",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::窗口和视图操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Alt",
+                "上箭头键",
+                "向上移动一个像素",
+                ""
+            ],
+            "guid": "l>%4B6mhx)",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::移动选定对象"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Alt",
+                "下箭头键",
+                "向下移动一个像素",
+                ""
+            ],
+            "guid": "r%1rWC!GF(",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::移动选定对象"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Alt",
+                "左箭头键",
+                "向左移动一个像素",
+                ""
+            ],
+            "guid": "L}%D`:nHoR",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::移动选定对象"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Alt",
+                "右箭头键",
+                "向右移动一个像素",
+                ""
+            ],
+            "guid": "tpjG;_(M!0",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::移动选定对象"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "上箭头键",
+                "从当前项向上移动",
+                ""
+            ],
+            "guid": "Mt6q{6PIcE",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::行进式拾取"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "下箭头键",
+                "从当前项向下移动",
+                ""
+            ],
+            "guid": "hDB/|DqKhL",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::行进式拾取"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "左箭头键",
+                "从当前项向左移动",
+                ""
+            ],
+            "guid": "qRaxyb`XZL",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::行进式拾取"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "右箭头键",
+                "从当前项向右移动",
+                ""
+            ],
+            "guid": "H|V2|2?*LH",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::行进式拾取"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "1",
+                "默认多边形网格显示（不平滑）",
+                ""
+            ],
+            "guid": "q:i&0_X2,v",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::建模操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "2",
+                "框架 + 平滑多边形网格显示",
+                ""
+            ],
+            "guid": "q<Chz<xWCn",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::建模操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "3",
+                "平滑多边形网格显示",
+                ""
+            ],
+            "guid": "u<zFd<g:qQ",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::建模操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "F9",
+                "将多边形选择转化为顶点",
+                ""
+            ],
+            "guid": "g/9{W@G0oI",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::建模操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "F10",
+                "将多边形选择转化为边",
+                ""
+            ],
+            "guid": "D_+xk3g:rI",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::建模操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "F11",
+                "将多边形选择转化为面",
+                ""
+            ],
+            "guid": "usX0p|<MKG",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::建模操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "F12",
+                "将多边形选择转化为 UV",
+                ""
+            ],
+            "guid": "NXxj;I{3b6",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::建模操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "`",
+                "代理 > 细分曲面代理 显示原始网格（代理）和平滑版本的原始值。",
+                ""
+            ],
+            "guid": "IQ{A5%*QAP",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::建模操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl+Shift",
+                "`",
+                "代理 > 细分曲面代理 > 显示细分曲面代理选项窗口",
+                ""
+            ],
+            "guid": "kx<Z%2[w|Q",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::建模操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "`",
+                "切换显示原始（代理）和平滑的网格。",
+                ""
+            ],
+            "guid": "QQA.mIcG$!",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::建模操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "~",
+                "同时显示原始（代理）和平滑的网格。",
+                ""
+            ],
+            "guid": "GBU~AfSMN/",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::建模操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Alt",
+                "`",
+                "修改 > 转化 > NURBS 到细分曲面、多边形到细分曲面",
+                ""
+            ],
+            "guid": "N-p|u$+s{B",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::建模操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Alt+Shift",
+                "~",
+                "显示修改 > 转化 > NURBS 到细分曲面 >?",
+                ""
+            ],
+            "guid": "c$p-0BCPWM",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::建模操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "",
+                "?或多边形到细分曲面 >?",
+                ""
+            ],
+            "guid": "Jb+h(:?889",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::建模操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "",
+                "?的选项窗口（取决于选定 NURBS 或多边形）。",
+                ""
+            ],
+            "guid": "diu;zd5?!t",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::建模操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "Page Up 键",
+                "增加平滑网格预览或细分曲面代理的分段级别。",
+                ""
+            ],
+            "guid": "g.OJIlM@te",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::建模操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "Page Down 键",
+                "减小平滑网格预览或细分曲面代理的分段级别。",
+                ""
+            ],
+            "guid": "oE#OK*<3p2",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::建模操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "l",
+                "锁定/解除锁定曲线的长度（按住）",
+                ""
+            ],
+            "guid": "pfwVJqIq79",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::建模操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl+Shift",
+                "拖动变换操纵器",
+                "沿边滑动选定组件。您还可以使用鼠标中键拖动到屏幕上的任意位置。",
+                ""
+            ],
+            "guid": "z_WSK=Hxla",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::建模操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shift",
+                "拖动变换操纵器",
+                "挤出当前选定的组件（仅限“组件”(Component)模式）。",
+                ""
+            ],
+            "guid": "QCca?}UJN!",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::建模操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "使用鼠标中键拖动",
+                "沿其法线移动组件（仅限“移动”(Move)工具）",
+                ""
+            ],
+            "guid": "mDwGYY]c>U",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::建模操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "使用鼠标中键拖动",
+                "沿其局部 X 轴旋转组件组（仅限“旋转”(Rotate)工具）",
+                ""
+            ],
+            "guid": "E5(c6}<.TZ",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::建模操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "使用鼠标中键拖动",
+                "沿其局部 YZ 轴缩放组件组（仅限“缩放”(Scale)工具）",
+                ""
+            ],
+            "guid": "l^[|kkdyTI",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::建模操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl+Shift",
+                "Q",
+                "激活四边形绘制工具(Quad Draw Tool)。",
+                ""
+            ],
+            "guid": "u!-{n=ZG:f",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::建模操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl+Shift",
+                "X",
+                "激活多切割工具(Multi-Cut Tool)。",
+                ""
+            ],
+            "guid": "rnvjeC3ApF",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::建模操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "按住 B 键并拖动，或者使用鼠标中键 (MMB) 向左/向右拖动",
+                "在您拖动时，工具光标将调整为更大和更小。",
+                "调整笔刷大小"
+            ],
+            "guid": "flX}KOS?LI",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::雕刻工具"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "按住 B 键并使用鼠标中键向左/向右拖动，或者按住 Ctrl 键并使用鼠标中键向左/向右拖动",
+                "在您拖动时，工具光标将调整为更大和更小。",
+                "从 0 调整笔刷大小"
+            ],
+            "guid": "ya3noCB9GY",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::雕刻工具"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "按住 M 键并拖动，或者使用鼠标中键向上/向下拖动",
+                "在您拖动时，笔刷强度指示器将变长或变短。",
+                "调整笔刷强度"
+            ],
+            "guid": "IfMB<(ADOn",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::雕刻工具"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "按住 M 键并使用鼠标中键向上/向下拖动，或者按住 Ctrl 键并使用鼠标中键向上/向下拖动",
+                "在您拖动时，笔刷强度指示器将变长或变短。",
+                "从 0 调整笔刷强度"
+            ],
+            "guid": "Jx7lB4d@JN",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::雕刻工具"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "Ctrl",
+                "如果当前工具具有反转功能，则在雕刻时将应用反转功能。",
+                "反转"
+            ],
+            "guid": "OuYVt1Ga:S",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::雕刻工具"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "",
+                "“反转”(Invert)处于活动状态时，工具的笔刷环将变为白色。",
+                ""
+            ],
+            "guid": "y/^LOps?)V",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::雕刻工具"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "Ctrl",
+                "沿平均化法线在笔刷内拉动顶点。“平均化法线”(Averaged Normal)处于活动状态时，工具的笔刷环将变为白色。",
+                "平均化法线"
+            ],
+            "guid": "PsET<bnEyt",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::雕刻工具"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "Ctrl + Shift + I",
+                "反转活动网格的已冻结和未冻结部分。",
+                "反转冻结"
+            ],
+            "guid": "urb]{lKj1(",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::雕刻工具"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "Shift + U",
+                "在使用任何雕刻工具时，移除活动网格上的所有冻结。",
+                "全部解冻"
+            ],
+            "guid": "Rg5z#[i(+c",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::雕刻工具"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "Shift",
+                "暂时平滑顶点，而不管哪个工具处于活动状态。（松开 Shift 键将还原为选定的工具功能。）“平滑”(Smooth)处于活动状态时，工具的笔刷环将变为浅蓝色。",
+                "暂时激活“平滑”(Smooth)工具"
+            ],
+            "guid": "E;e/~:#Q5#",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::雕刻工具"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "Ctrl+Shift",
+                "平滑网格的曲面，而不影响其形状。“松弛”(Relax)处于活动状态时，工具的笔刷环将变为浅黄色。",
+                "松弛"
+            ],
+            "guid": "O8rS37rLl3",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::雕刻工具"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "Ctrl+Shift",
+                "按住 Ctrl 和 Shift 键并将菜单项从“网格工具 > 雕刻工具”(Mesh Tools > Sculpting Tools)菜单拖动到工具架。",
+                "将雕刻工具添加到活动工具架"
+            ],
+            "guid": "y]YL;Z,]MQ",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::雕刻工具"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "F",
+                "光标位于活动雕刻网格上方时，摄影机将放大光标下的区域。",
+                "框显光标下的网格区域"
+            ],
+            "guid": "hy+a.sT63~",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::雕刻工具"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "启用“翻滚枢轴”(Tumble pivot)和“自动设置翻滚枢轴”(Automatically set tumble pivot)（“视图 > 摄影机工具 > 翻滚工具”(View > Camera Tools > Tumble Tool)?>?），然后按住 Alt 键并拖动",
+                "围绕最近笔划的开始点翻滚摄影机。如果没有要考虑的笔划，则摄影机将围绕视图中心翻滚。",
+                "围绕将雕刻的网格部分翻滚"
+            ],
+            "guid": "k(KxAhPOHy",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::雕刻工具"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "在雕刻工具处于活动状态时按住 Ctrl 或 Shift 键并单击鼠标右键",
+                "打开“雕刻工具”(Sculpting Tools)标记菜单。（必须已选择另一个雕刻工具。）",
+                "打开“雕刻工具”(Sculpting Tools)标记菜单"
+            ],
+            "guid": "QqZgTBYc-u",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::雕刻工具"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "Ctrl + 1",
+                "激活“雕刻工具”(Sculpt Tool)。（必须已选择另一个雕刻工具。）",
+                "切换到雕刻工具"
+            ],
+            "guid": "sq96cq}*4L",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::雕刻工具"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "Ctrl + 2",
+                "激活“平滑工具”(Smooth Tool)。（必须已选择另一个雕刻工具。）",
+                "切换到平滑工具"
+            ],
+            "guid": "AEHyYLs+qb",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::雕刻工具"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "Ctrl + 3",
+                "激活“松弛工具”(Relax Tool)。（必须已选择另一个雕刻工具。）",
+                "切换到松弛工具"
+            ],
+            "guid": "u9ZS:BB5#S",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::雕刻工具"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "Ctrl + 4",
+                "激活“抓取工具”(Grab Tool)。（必须已选择另一个雕刻工具。）",
+                "切换到抓取工具"
+            ],
+            "guid": "ec@4w5fQxj",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::雕刻工具"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "Ctrl + 5",
+                "激活“收缩工具”(Pinch Tool)。（必须已选择另一个雕刻工具。）",
+                "切换到收缩工具"
+            ],
+            "guid": "I^L~je@+m_",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::雕刻工具"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "Ctrl + 6",
+                "激活“展平工具”(Flatten Tool)。（必须已选择另一个雕刻工具。）",
+                "切换到展平工具"
+            ],
+            "guid": "i+>_5>nxO!",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::雕刻工具"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "Ctrl + 7",
+                "激活“泡沫工具”(Foamy Tool)。（必须已选择另一个雕刻工具。）",
+                "切换到泡沫工具"
+            ],
+            "guid": "b@fSl]$gIg",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::雕刻工具"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "Ctrl + 8",
+                "激活“喷射工具”(Spray Tool)。（必须已选择另一个雕刻工具。）",
+                "切换到喷射工具"
+            ],
+            "guid": "m01Txdav{%",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::雕刻工具"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "Ctrl + 9",
+                "激活“重复工具”(Repeat Tool)。（必须已选择另一个雕刻工具。）",
+                "切换到重复工具"
+            ],
+            "guid": "NVJHUK+w$8",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::雕刻工具"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "Ctrl + 0",
+                "激活“冻结工具”(Freeze Tool)。（必须已选择另一个雕刻工具。）",
+                "切换到冻结工具"
+            ],
+            "guid": "MKd&}[{O@w",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::雕刻工具"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "4",
+                "线框模式",
+                ""
+            ],
+            "guid": "L]l`OuoQWu",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::UV编辑器"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "5",
+                "着色模式。请参见“UV编辑器”(UV Editor)的“视图”(View)菜单。",
+                ""
+            ],
+            "guid": "nwwJ0eS]}`",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::UV编辑器"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "6",
+                "显示纹理图像",
+                ""
+            ],
+            "guid": "flYOjJF*<b",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::UV编辑器"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "7",
+                "切换 UV 扭曲显示。请参见识别 UV 扭曲。",
+                ""
+            ],
+            "guid": "No;XaG_-(q",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::UV编辑器"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl+Shift",
+                "A",
+                "选择所有活动组件",
+                ""
+            ],
+            "guid": "AwP${)%;54",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::UV编辑器"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl+Shift",
+                "I",
+                "反转当前选择",
+                ""
+            ],
+            "guid": "FF]#YN?X#W",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::UV编辑器"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "< 或 >",
+                "缩小或扩大选择",
+                ""
+            ],
+            "guid": "g[3-3tm?-8",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::UV编辑器"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "C",
+                "复制最后一个选定面",
+                ""
+            ],
+            "guid": "CM}^<^L#FA",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::UV编辑器"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "V",
+                "粘贴添加到剪贴板的最后一个面",
+                ""
+            ],
+            "guid": "f(Z)-vPPp;",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::UV编辑器"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "L",
+                "排布当前选择。请参见排布 UV 壳。",
+                ""
+            ],
+            "guid": "N!YCF2-%o;",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::UV编辑器"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "U",
+                "展开当前选择。请参见展开 UV 网格。",
+                ""
+            ],
+            "guid": "dZgTu(vsSI",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::UV编辑器"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl+Shift",
+                "X",
+                "从当前选择创建 UV 壳",
+                ""
+            ],
+            "guid": "FGkmN<8$Sg",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::UV编辑器"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl+Shift",
+                "拖动",
+                "当变换工具处于活动状态时，这会将移动约束到边。",
+                ""
+            ],
+            "guid": "Q9iNB7X}e-",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::UV编辑器"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shift",
+                "X",
+                "切割当前选定的边。请参见分离和附加 UV 壳。",
+                ""
+            ],
+            "guid": "s$_b<3Oi(_",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::UV编辑器"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shift",
+                "S",
+                "缝合当前选定的边。请参见分离和附加 UV 壳。",
+                ""
+            ],
+            "guid": "GW0N8IW)S{",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::UV编辑器"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "Q、W、E、R",
+                "分别激活“选择”(Select)、“平移”(Translate)、“旋转”(Rotate)和“缩放”(Scale)工具",
+                ""
+            ],
+            "guid": "JRv2fO#?M+",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::UV编辑器"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "A",
+                "框显选定对象的所有 UV 壳。",
+                ""
+            ],
+            "guid": "p[:.;C!,?H",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::UV编辑器"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "F",
+                "框显所有选定组件/壳。",
+                ""
+            ],
+            "guid": "d)=+u77DbC",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::UV编辑器"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl",
+                "向上箭头、向下箭头",
+                "提高/降低棋盘格贴图的分辨率（当启用“棋盘格贴图”(Checker Map)时）。",
+                ""
+            ],
+            "guid": "G}ww]a_.>?",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::UV编辑器"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "a",
+                "",
+                "显示全部",
+                ""
+            ],
+            "guid": "lr0CsL85E_",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::视图操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "f",
+                "",
+                "显示选定项",
+                ""
+            ],
+            "guid": "O)P9`[U:MP",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::视图操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Alt + A",
+                "",
+                "在关节、控制和角色之间循环切换",
+                ""
+            ],
+            "guid": "yam6[7|2&X",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::视图操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Alt + B",
+                "",
+                "更改透视和正交面板的背景色：标准（浅灰）、深灰色或黑色",
+                ""
+            ],
+            "guid": "gM4zR$Gsi@",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::视图操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shift + 空格键",
+                "",
+                "放大显示鼠标指针下的视图，例如，“视图面板”(View Panel)或“曲线图编辑器”(Graph Editor)。这将收拢停靠在主窗口中的所有其他窗格。如果鼠标指针悬停在界面的浮动窗口或其他部分（例如，“通道盒”(Channel Box)或“工具设置”(Tool Settings)）上方，则会影响您所单击的最后一个视图。再次按住 Shift + 空格键可还原之前查看的配置。",
+                ""
+            ],
+            "guid": "p)R3v8oJx&",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::视图操作"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ctrl + 空格键",
+                "",
+                "全屏显示鼠标指针下的视图。其工作方式与按住 Shift + 空格键以放大视图相同，但是还会隐藏“状态行”(Status Line)、“工具架”(Shelf)和“时间滑块”(Time Slider)等 UI 元素。再次按住 Ctrl + 空格键可还原之前查看的配置。",
+                ""
+            ],
+            "guid": "e`@>WdnG-P",
+            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
+            "tags": [
+                "Maya_shortcuts::视图操作"
+            ]
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
