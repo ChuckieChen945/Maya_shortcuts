@@ -10,9 +10,9 @@
             "autoplay": true,
             "buryInterdayLearning": false,
             "crowdanki_uuid": "f015aabc-8d1d-11ef-bd13-e8fb1c40bbe6",
-            "desiredRetention": 0.7,
+            "desiredRetention": 0.84,
             "dyn": false,
-            "fsrsWeights": [],
+            "fsrsWeights": [0.4872, 1.4003, 3.7145, 13.8206, 5.1618, 1.2298, 0.8975, 0.0310, 1.6474, 0.1367, 1.0461, 2.1072, 0.0793, 0.3246, 1.5870, 0.2272, 2.8755],
             "ignoreRevlogsBeforeDate": "",
             "interdayLearningMix": 2,
             "lapse": {
