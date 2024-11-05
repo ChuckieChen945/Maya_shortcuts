@@ -2000,38 +2000,10 @@
             "fields": [
                 "Alt+Shift",
                 "~",
-                "显示修改 > 转化 > NURBS 到细分曲面 >?",
+                "显示修改 > 转化 > NURBS 到细分曲面 > 或多边形到细分曲面 > 的选项窗口（取决于选定 NURBS 或多边形）。 ",
                 ""
             ],
             "guid": "c$p-0BCPWM",
-            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
-            "tags": [
-                "Maya_shortcuts::建模操作"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "",
-                "",
-                "?或多边形到细分曲面 >?",
-                ""
-            ],
-            "guid": "Jb+h(:?889",
-            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
-            "tags": [
-                "Maya_shortcuts::建模操作"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "",
-                "",
-                "?的选项窗口（取决于选定 NURBS 或多边形）。",
-                ""
-            ],
-            "guid": "diu;zd5?!t",
             "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
             "tags": [
                 "Maya_shortcuts::建模操作"
@@ -2238,24 +2210,10 @@
             "fields": [
                 "",
                 "Ctrl",
-                "如果当前工具具有反转功能，则在雕刻时将应用反转功能。",
+                "如果当前工具具有反转功能，则在雕刻时将应用反转功能。“反转”(Invert)处于活动状态时，工具的笔刷环将变为白色。",
                 "反转"
             ],
             "guid": "OuYVt1Ga:S",
-            "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
-            "tags": [
-                "Maya_shortcuts::雕刻工具"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "",
-                "",
-                "“反转”(Invert)处于活动状态时，工具的笔刷环将变为白色。",
-                ""
-            ],
-            "guid": "y/^LOps?)V",
             "note_model_uuid": "f015c941-8d1d-11ef-8c5d-e8fb1c40bbe6",
             "tags": [
                 "Maya_shortcuts::雕刻工具"
